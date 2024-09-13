@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration</title>
+</head>
+<a href="Index.html"><b>RETURN TO HOME</b></a>
+<style> body {
+    background-color:burlywood ;}
+    nav{
+        padding: 20px 10px;
+        text-align: center;
+        display: block;
+    background-color:gray;
+}
+</style>
+    
+<body>
+
+    <h1>Register for the Tech Con Confrence 2024</h1>
+
+  
+        <!-- Name Field -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Company Field -->
+        <label for="company">Company/Organization (optional):</label><br>
+        <input type="text" id="company" name="company" placeholder="Enter your company name"><br><br>
+
+        <!-- Role Selection -->
+        <label for="role">Role:</label><br>
+        <select id="role" name="role" required>
+            <option value="">Select your role</option>
+            <option value="developer">Developer</option>
+            <option value="IT-professional">IT Professional</option>
+            <option value="student">Student</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Sessions Checkbox -->
+        <label>Sessions Interested In:</label><br>
+        <input type="checkbox" id="keynote" name="session" value="keynote">
+        <label for="keynote">Keynote Sessions</label><br>
+
+        <input type="checkbox" id="workshops" name="session" value="workshops">
+        <label for="workshops">Workshops</label><br>
+
+        <input type="checkbox" id="networking" name="session" value="networking">
+        <label for="networking">Networking Events</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+    <p><a href="mailto:vincenteboya77@.com">Send email</a></p>
+</body>
+</html>
