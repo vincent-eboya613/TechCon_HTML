@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conference Registration</title>
 </head>
-<a href="Index.html"><b>RETURN TO HOME</b></a>
+<nav>
+<a href="index.html"><b>RETURN TO HOME</b></a>
+</nav>
 <style> body {
     background-color:burlywood ;}
     nav{
@@ -18,14 +20,18 @@
 </style>
     
 <body>
+    <header>
 
     <h1>Register for the Tech Con Confrence 2024</h1>
-
-  
+          </header>
+         
+        
         <!-- Name Field -->
         <label for="name">Full Name:</label><br>
         <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
-
+         <!--password Field-->
+        <label for="password">Password:</label><br>
+        <input type="=numbers,text" id="password" name="password " placeholder="Please enter password"required><br><br>
         <!-- Email Field -->
         <label for="email">Email Address:</label><br>
         <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
@@ -33,8 +39,7 @@
         <!-- Company Field -->
         <label for="company">Company/Organization (optional):</label><br>
         <input type="text" id="company" name="company" placeholder="Enter your company name"><br><br>
-
-        <!-- Role Selection -->
+        <main>        <!-- Role Selection -->
         <label for="role">Role:</label><br>
         <select id="role" name="role" required>
             <option value="">Select your role</option>
@@ -43,7 +48,7 @@
             <option value="student">Student</option>
             <option value="other">Other</option>
         </select><br><br>
-
+        </main>
         <!-- Sessions Checkbox -->
         <label>Sessions Interested In:</label><br>
         <input type="checkbox" id="keynote" name="session" value="keynote">
@@ -60,5 +65,6 @@
     </form>
 
     <p><a href="mailto:vincenteboya77@.com">Send email</a></p>
+    <footer>&copy;TechConfrence2024</footer>
 </body>
 </html>
